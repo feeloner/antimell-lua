@@ -1,0 +1,89 @@
+# Скомпилированные файлы и артефакты сборки
+*.o
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+*.obj
+*.lib
+*.a
+*.dSYM/
+
+# Директории сборки (если есть)
+build/
+cmake-build-*/
+Debug/
+Release/
+x64/
+x86/
+
+# Файлы редакторов и IDE (настройки конкретно твоего редактора)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+.project
+.classpath
+.settings/
+
+# Временные файлы и бекапы
+*.bak
+*.tmp
+*.temp
+*.log
+*.old
+*.orig
+*.save
+
+# Логи Cuberite (если плагин их создает локально)
+logs/
+*.log
+
+# Кэш Lua (если используется luaс или аналоги)
+__pycache__/  # На всякий случай, если рядом есть Python
+luac.out
+*.lua.bin
+
+# Файлы конфигурации с чувствительными данными (если есть)
+config.lua
+*.key
+*.pem
+*.crt
+*.secret
+settings.private.lua
+
+# Файлы, создаваемые самим плагином во время работы
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.dat
+storage/
+
+# Временные файлы, создаваемые Cuberite (на всякий случай)
+*.txt.tmp
+*.lua.tmp
+
+# Линтеры и форматтеры (если используешь)
+.luacheckrc.local
+.stylua.toml.local
+
+# Файлы конкретно для твоего античита (можно добавить свое)
+# Например, если плагин пишет статистику нарушителей:
+violations.log
+bans.db
+player_data.json
+
+# Общее исключение для файлов, которые не должны попасть в репозиторий
+*.local
+*.local.lua
+.env
+
+# !!! ВАЖНО: Не игнорируй сам README.md, LICENSE и основной код
+# README.md
+# LICENSE
