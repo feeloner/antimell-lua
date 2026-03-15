@@ -1,7 +1,7 @@
 --[[
-    Название плагина: AntiMell
-    Автор: Feeloner
-    Описание: AntiRotate system based on Lua. Created for Cuberite servers to prevent suspicious player rotations.
+    Name: AntiMell
+    Author: Feeloner
+    Description: AntiRotate system based on Lua. Created for Cuberite servers to prevent suspicious player rotations.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
