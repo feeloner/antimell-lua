@@ -3,5 +3,5 @@
 # Reason for creation
 
 <p align="center">
-  <img src="reason.png" width="200"/>
+  <img src="reason.png" width="650"/>
 </p>
